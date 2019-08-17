@@ -1,0 +1,329 @@
+*{
+							margin:0px;
+							padding:0px;
+							border:0px;
+							 /* box-sizing: border-box;  */
+}
+.sec1-figure{
+	                      
+						   width:100%;
+							height:100%;
+}
+.background-image {
+							width: 100%;
+							height: 882px;
+							opacity: 0.8;
+							/* position: absolute; */
+}
+
+ .container1{
+							
+									width: 1322px;
+									height: 884px;
+									margin: 0 auto;
+									text-align: center;
+									border: 3px solid yellow;
+									position: relative;
+
+		 
+	 }
+ 
+	 
+ ul {
+							  list-style-type: none;
+							  margin: 0;
+							  padding: 0;
+							  overflow: hidden;  
+  
+}
+
+li {
+                              float: left;
+}
+
+li a {
+  
+							  color: white;
+							  text-align: center;
+							  padding: 14px 16px;
+							  text-decoration: none;
+}
+
+
+ .labname {
+								position: absolute; 
+								left:40px;
+								top: 30px;
+								color: white;
+								font-size: 30px;
+								border: 3px solid yellow;
+}
+.navigation{
+								position:absolute;
+								top:30px;
+								left:60%;
+								font-size:25px;
+								border: 3px solid yellow;
+    
+}
+ .build {
+								top: 35%;
+								left:40px;
+								position: absolute;
+								color: white;
+								font-size: 40px;
+								border: 3px solid yellow;
+}
+ 
+
+  .form1 {
+								position: absolute;
+								border: 3px solid yellow;
+								top: 47%;
+								color:black;
+								margin: 43px;
+								font-size: 25px;
+}
+  
+  .information {
+								position: absolute;
+								right: 0;
+								margin: 120px;
+								width: 20%;
+								height:290px;
+								padding: 36px;
+								background-color: blue;
+								top:20%;
+								border: 3px solid yellow;
+}
+input[type=text],input[type=email],input[type=password]{
+	                             padding: 15px 50px;
+								 border: 5px solid blue;
+}
+ 
+ .button {
+								  border-radius: 5px;
+								  width: 100px;
+								  height: 30px;
+								  background-color: white;
+								  color: black;
+								  border: 2px solid #4CAF50; /* Green */
+}
+.clear{
+	                             clear:both;
+}
+ 
+ /* **************************sec2******************************************/
+ .container{
+							width:1322px;
+							height:406px;
+							margin:0 auto;
+							text-align:center;
+						   border: 3px solid yellow;
+						   text-align:center;
+		 
+	 }
+ 
+/**************************sec2*********************************************/
+  
+ .explore1{
+							  background-color:black;
+							  width:100%;
+							  height:150px;
+							  color:white;
+							  bottom:10px;
+							  text-align:center;
+							  font-size:15px;
+							  border: 3px solid yellow;
+							
+ }
+ 
+ .form3{
+	                        width:560px;
+							border: 3px solid yellow;
+							margin-right:65px;
+							float:right;
+							text-align:left;
+							font-size:20px;
+					
+}
+ .explore-image{
+							 border-radius:50%;
+							 height:250px;
+							 width:320px;
+							 float:left;
+							 margin-left:160px;
+ }
+ .explore2 {
+                            height: 256px;
+							background-color:#898989;
+							color:white;
+							border: 3px solid yellow;
+}
+.clear{
+	                         clear:left;
+}
+ ********************3rd sec **********************************************
+ 
+  
+  .create1{ 
+							
+							width:100%;
+							border:2px solid yellow;
+							text-align:left;
+							margin-left:65px;
+							border: 3px solid yellow;
+}		
+  .create1{
+	                        height: 150px;
+							background-color:blue;
+  }
+ .create-image{
+	                       border-radius:50%;
+						   height:250px;
+						   width:320px;
+						  float:right;	
+                          margin-right:160px;						  
+ }
+ .form4{
+	                        width:560px;
+							border: 3px solid yellow;
+							margin-left:65px;
+							float:left;
+							text-align:left;
+							font-size:20px;
+					
+}
+ .create2 {
+                            height: 256px;
+							background-color:#898989;
+							color:white;
+							border: 3px solid yellow;
+}
+/*******************************4th sec *******************************************/
+.share1{ 
+							width:100%;
+							height:150px;
+							 background-color:black;
+							 color:white;
+							margin-right:65px;
+							border: 3px solid yellow;
+}	
+.share-image{
+	                       border-radius:50%;
+						   height:250px;
+						   width:320px;
+						  /* padding-bottom:93px; */
+						  float:left;
+                          margin-left:160px;						  
+ }
+ .share2 {
+                            height: 256px;
+							background-color:#898989;
+							color:white;
+							border: 3px solid yellow;
+}
+ .contact{
+						   width:100%;
+						   height:150px;
+						   background-color:black;
+						  color:white;
+						  text-align:center;
+						  font-size:15px;
+ }
+ .container2{
+							width:1322px;
+							height:150px;
+							margin:0 auto;
+							text-align:center;
+						   border: 3px solid yellow;
+		 
+	 }
+  .clear{
+	 
+	                             clear:right;
+ }
+ /*************mediaquery get started********************************/
+ /* @ media (max-width:1365px){ */
+	    /* .container1 { */
+									/* width: 1322px; */
+									/* height: 884px; */
+									/* margin: 0 auto; */
+									/* text-align: center; */
+									/* zborder: 3px solid yellow; */
+									/* position: relative; */
+/* } */
+ 
+ /* .background-image { */
+									/* width: 100%; */
+									/* height: 882px; */
+									/* opacity: 0.8; */
+									position: absolute;
+/* } */
+ 
+ /* @ media (max-width:1160px) */
+ /* { */
+	    /* .container1 { */
+							/* width: 1322px; */
+							/* height: 560px; */
+							/* margin: 0 auto; */
+							/* text-align: center; */
+							/* zborder: 3px solid yellow; */
+							position: relative;
+/* } */
+       /* .background-image { */
+							
+							/* opacity: 0.8; */
+							/* position: absolute; */
+		/* } */
+        /* .form1 { */
+							/* position: absolute; */
+							/* top: 67%; */
+							/* color: black; */
+							/* margin-left: 43px; */
+							/* font-size: 30px; */
+/* } */
+        /* input[type=text],input[type=email],input[type=password]{ */
+	                             /* padding: 10px 25px; */
+								 /* border: 2px solid blue; */
+        /* }	 */
+        /* .information { */
+							/* position: absolute; */
+							/* right: 0; */
+							/* margin-right: 104px; */
+							/* width: 22%; */
+							/* height: 290px; */
+							/* padding: 36px; */
+							/* background-color: blue; */
+							/* top: 42%; */
+/* }	 */
+        /* .build        { */
+			               /* top:44%; */
+		/* }	 */
+ /* } */
+ 
+ /* @ media (max-width:991px) */
+ /* { */
+	    /* .container1{ */
+			                /* width:725px; */
+							/* margin:0 90px; */
+							/* border:1px solid red; */
+ /* } */
+ 
+        /* .navigation{ */
+			               /* left:59%; */
+		/* } */
+		/* .information{ */
+			                /* width:26%; */
+							margin-right:26%;
+							/* top:45%; */
+		/* } */
+		/* .form1{ */
+			                margin-left:43px;
+							/* font-size:26px; */
+							/* top:73%; */
+		/* } */
+		/* .build{ */
+			                /* top:35%; */
+							/* font-size:43px; */
+		/* } */
